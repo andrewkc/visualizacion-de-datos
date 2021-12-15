@@ -8,8 +8,8 @@
 
 * Kelvin Andreí Cahuana Condori - ID: `itskelvinandrei`
 * Ana Maria Accilio Villanueva - ID: `anaaccilio2004`
-* Margiory Alvarado Chavez - ID: 'MargioUTEC'
-*
+* Margiory Alvarado Chavez - ID: `MargioUTEC`
+* - ID `escribe aqui tu ID adrián`
 
 ## Instrucciones para ejecutar el proyecto
 
