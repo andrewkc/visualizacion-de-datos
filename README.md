@@ -2,12 +2,12 @@
 
 ## Descripción del proyecto
 
-¡Hola! Somos un grupo de estudiantes de Computer Science. En este proyecto usamos la librería `Matplotlib` para generar gráficos apartir de un archivo `JSON` con datos de `Pokemones`. 
+¡Hola! Somos un grupo de estudiantes de Computer Science. En este proyecto usamos la librería `Matplotlib` para generar gráficos apartir de un archivo `JSON` con los datos de los `Pokemones`. 
 
 ## Nombre de los integrantes e ID de GitHub
 
 * Kelvin Andreí Cahuana Condori - ID: `itskelvinandrei`
-*
+* Ana Maria Accilio Villanueva - ID: `anaaccilio2004`
 *
 *
 
