@@ -1,1 +1,1 @@
-# Visualizaci-n-de-datos-usando-archivos-JSON
+# Visualización de datos usando archivos JSON
