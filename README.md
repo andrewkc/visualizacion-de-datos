@@ -15,31 +15,38 @@
 
 ### Ejercicio 1
 
-1.
+1. Este gráfico de barras muestra los tipos de pokemon en el eje X,
+y la cantidad de pokemones que tienen dicho tipo como una debilidad, en el eje Y.
+Para eso creamos un código donde utilizamos listas y diccionarios, acompañado
+de estructuras de control y por últimos las funciones de la librería
+`matplotlib` para mostrar la imagen resultante la cual es la siguiente:
+
 
 > Imagen referencial
-![01](https://user-images.githubusercontent.com/91230053/146286826-55c6a54f-2e8e-4dba-8a0b-5a93044e6ba9.png)
+> ![01](https://user-images.githubusercontent.com/91230053/146286826-55c6a54f-2e8e-4dba-8a0b-5a93044e6ba9.png)
 
 ### Ejercicio 2
 
 1.
 
 > Imagen referencial
-![02](https://user-images.githubusercontent.com/91230053/146286849-28fb3eba-5d10-4c9f-b1b3-6a3a922ebde5.png)
+> ![02](https://user-images.githubusercontent.com/91230053/146286849-28fb3eba-5d10-4c9f-b1b3-6a3a922ebde5.png)
 
 
 ### Ejercicio 3
 
-1.
+1. Esta función, sin parámetros, grafíca en el mapa de `Kanto`, la cuál ya nos habían compartido anteriormente,
+las coordenadas de aquellos pokemones cuyo `ID` es un número primo. Realizamos distintas estructuras y definimos
+una función para saber cuáles son los números primos.
 
 > Imagen referencial
-![03](https://user-images.githubusercontent.com/91230053/146286916-3aa9e6ea-2f3e-477c-b785-25478858eea4.png)
+> ![03](https://user-images.githubusercontent.com/91230053/146286916-3aa9e6ea-2f3e-477c-b785-25478858eea4.png)
 
 ### Ejercicio 4
 
-1. En este ejercicio 4 ultilizaremos la funcion `pie` de Matplotlib, que muestra graficos circulares. En este gráfico clasificaremos la cantidad de pokemones que se encuentren entre los rangos de sus indices de `"avg_Spawns"` registradas en `pokemons.json`. Se abrirá el json y distribuirá cada dato `"avg_Spawns"` mediante un `for` y asignar un valor `avg`
+1.
 
 > Imagen referencial
-![04](https://user-images.githubusercontent.com/91230053/146286946-2dbfc5fa-cd47-4f68-acd8-729ef79f3aed.png)
+> ![04](https://user-images.githubusercontent.com/91230053/146286946-2dbfc5fa-cd47-4f68-acd8-729ef79f3aed.png)
 
 
