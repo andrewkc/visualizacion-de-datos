@@ -9,7 +9,7 @@
 * Kelvin Andreí Cahuana Condori - ID: `itskelvinandrei`
 * Ana Maria Accilio Villanueva - ID: `anaaccilio2004`
 * Margiory Alvarado Chavez - ID:  `MargioUTEC`
-* Adrian Sandoval Huamani -  ID: `SandovalHuamaniUTEC`
+* Adrian Sandoval Huamani -  ID: `SandovalAdrianUTEC`
 
 ## Instrucciones para ejecutar el proyecto
 
