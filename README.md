@@ -52,7 +52,7 @@ En el ejercicio 3, mostramos el mapa de Kanto con las coordenadas de cada pokém
 > Imagen referencial
 > ![03](https://user-images.githubusercontent.com/91230053/146286916-3aa9e6ea-2f3e-477c-b785-25478858eea4.png)
 
-### Ejercico 4
+### Ejercicio 4
 
 En el ejercicio 4, mostraremos la cantidad de Pokemones en un rango determinado, para dicho problema nos basamos de su indice de `"avg_Spawns"`.
 - Paso 1: Creamos listas vacías para determinar el rango del gráfico.
