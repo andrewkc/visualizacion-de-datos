@@ -9,7 +9,7 @@
 * Kelvin Andreí Cahuana Condori - ID: `itskelvinandrei`
 * Ana Maria Accilio Villanueva - ID: `anaaccilio2004`
 * Margiory Alvarado Chavez - ID:  `MargioUTEC`
-* Adrian Sandoval Huamani -  ID: `Sandovl0593`
+* Adrian Sandoval Huamani -  ID: `SandovalAdrianUTEC`
 
 ## Instrucciones para ejecutar el proyecto
 
@@ -41,19 +41,19 @@ En nuestro ejercicio 2, realizamos una función para mostrar la altura y el peso
 
 ### Ejercicio 3
 
-En el ejercicio 3, mostramos el mapa de Kanto con las coordenadas de cada pokémon, solo cuya "id" sea un número primo:
+En el ejercicio 3, mostraremos el mapa de Kanto con las coordenadas de cada pokemon, solo cuya "id" sea un número primo:
 - Paso 1: Insertamos un `plt.imshow` con la imagen `Kanto.png`.
 - Paso 2: Creamos dos listas: `coordenadas_x` y `coordenadas_y`. 
 - Paso 3: Creamos una iteración: ```for i in range(2, tam)``` donde la iteración empieza por `2`, porque `0` y `1` no son números primos y que la variable `tam` es la cantidad de diccionarios leidos del `getAllPokemons`.
 - Paso 4: En la iteración seleccionamos la clave `"id"` de cada diccionario, siempre y cuando que sea un número primo, gracias a la funcion `es_primo`.
 - Paso 5: En caso de que sí lo sea, le asignamos a cada diccionario la función `getLocationsByName` que retorna las coordenadas `cordx` y `cordy` y al final los juntamos con las listas del principio.
-- Paso 6: Asignamos la lista `col` con los colores de las coordenadas que serán escogidos aleatoriamente.
+- Paso 6: Asignamos la lista `col` con los colores de los puntos que serán escogidos aleatoriamente.
 - Paso 7: Finalmente completamos la estructura del gráfico con `plt.plot` que asigna las coordenadas respectivas, con `plt.title`, `plt.xlabel` y `plt.ylabel` que asignan los titulos y con `plt.show()` que nos mostrará el gráfico final.
 
 > Imagen referencial
 > ![03](https://user-images.githubusercontent.com/91230053/146286916-3aa9e6ea-2f3e-477c-b785-25478858eea4.png)
 
-### Ejercico 4
+### Ejercicio 4
 
 1.
 
@@ -61,3 +61,8 @@ En el ejercicio 3, mostramos el mapa de Kanto con las coordenadas de cada pokém
 > ![04](https://user-images.githubusercontent.com/91230053/146286946-2dbfc5fa-cd47-4f68-acd8-729ef79f3aed.png)
 
 
+
+### Librerías utilizadas
+1. `Matplotlib`
+2. Utilizamos el gráfico llamado `Pie` (en donde clasificamos el key `<avg_Spawns>` mediante rangos)
+3. `pctdistance` es un parámetro de esta función `pie` que nos permite distanciar los porcentajes.
