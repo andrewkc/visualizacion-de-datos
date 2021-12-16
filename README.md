@@ -53,16 +53,18 @@ En el ejercicio 3, mostraremos el mapa de Kanto con las coordenadas de cada poke
 > Imagen referencial
 > ![03](https://user-images.githubusercontent.com/91230053/146286916-3aa9e6ea-2f3e-477c-b785-25478858eea4.png)
 
-### Ejercicio 4
+### Ejercico 4
 
-1.
+En el ejercicio 4, mostraremos la cantidad de Pokemones en un rango determinado, para dicho problema nos basamos de su indice de `"avg_Spawns"`.
+- Paso 1: Creamos listas vacías para determinar el rango del gráfico.
+- Paso 2: Realizamos una estructura repetitiva para los rangos: `for pkmn in pokms:`, de esa forma daremos paso al `key:` `"avg_Spawns"`.
+- Paso 3: Insertamos una estructura de control selectiva para determinar los rangos.
+- Paso 4: Le damos los valores a los intervalos, usando el `len`
+- Paso 5: Hacemos una lista de: cantitades, rangos, colores, los bordes, para el `Gráfico circular`.
+- Paso 6: Determinamos la leyenda con una lista vacías, además iteramos con un bucle. Hacemos uso del método `zip` y `append` para determinar los intervalos. El título de la leyenda será `"Rangos de avg_spawns"`.
+- Paso 7: Realizamos la gráfica `pie`, en el cual insertaremos los valores definidos anteriormente, mostrando la leyenda, los títulos y la gráfica en sí. 
 
 > Imagen referencial
 > ![04](https://user-images.githubusercontent.com/91230053/146286946-2dbfc5fa-cd47-4f68-acd8-729ef79f3aed.png)
 
 
-
-### Librerías utilizadas
-1. `Matplotlib`
-2. En la pregunta 4, utilizamos el gráfico llamado `Pie` (en donde clasificamos el key `<avg_Spawns>` mediante rangos)
-3. `pctdistance` es un parámetro de esta función `pie` que nos permite distanciar los porcentajes.
