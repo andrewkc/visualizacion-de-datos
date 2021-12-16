@@ -64,5 +64,5 @@ En el ejercicio 3, mostraremos el mapa de Kanto con las coordenadas de cada poke
 
 ### Librerías utilizadas
 1. `Matplotlib`
-2. Utilizamos el gráfico llamado `Pie` (en donde clasificamos el key `<avg_Spawns>` mediante rangos)
+2. En la pregunta 4, utilizamos el gráfico llamado `Pie` (en donde clasificamos el key `<avg_Spawns>` mediante rangos)
 3. `pctdistance` es un parámetro de esta función `pie` que nos permite distanciar los porcentajes.
