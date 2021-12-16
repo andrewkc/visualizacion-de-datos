@@ -15,7 +15,12 @@
 
 ### Ejercicio 1
 
-1.
+1. *Este gráfico de barras muestra los tipos de pokemon en el eje X,
+y la cantidad de pokemones que tienen dicho tipo como una debilidad, en el eje Y.
+Para eso creamos un código donde utilizamos listas y diccionarios, acompañado
+de estructuras de control y por últimos las funciones de la librería
+`matplotlib` para mostrar la imagen resultante la cual es la siguiente:
+
 
 > Imagen referencial
 > ![01](https://user-images.githubusercontent.com/91230053/146286826-55c6a54f-2e8e-4dba-8a0b-5a93044e6ba9.png)
