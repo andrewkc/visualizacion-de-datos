@@ -35,9 +35,9 @@
 > Imagen referencial
 ![03](https://user-images.githubusercontent.com/91230053/146286916-3aa9e6ea-2f3e-477c-b785-25478858eea4.png)
 
-### Ejercico 4
+### Ejercicio 4
 
-1. Utilizaremos un gráfico pie, en donde clasificaremos a los pokemones mediante el rango de sus indice de "avg_Spawns"
+1. En este ejercicio 4 ultilizaremos la funcion `pie` de Matplotlib, que muestra graficos circulares. En este gráfico clasificaremos la cantidad de pokemones que se encuentren entre los rangos de sus indices de `"avg_Spawns"` registradas en `pokemons.json`. Se abrirá el json y distribuirá cada dato `"avg_Spawns"` mediante un `for` y asignar un valor `avg`
 
 > Imagen referencial
 ![04](https://user-images.githubusercontent.com/91230053/146286946-2dbfc5fa-cd47-4f68-acd8-729ef79f3aed.png)
