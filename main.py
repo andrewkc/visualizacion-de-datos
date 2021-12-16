@@ -120,7 +120,7 @@ def ejercicio3():
             nombre = pokms[i]["name"]
             cordx, cordy = getLocationsByName(nombre)
             
-            # Concatenamos listas o añadimos elementos dependiendo el caso
+            # Concatenamos las listas
             coordenadas_x += cordx
             coordenadas_y += cordy
 
