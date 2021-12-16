@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 import random as rd
-from aux_functions import es_primo, getAllPokemons, getTypesByName, getWeaknessesByName, getLocationsByName
+from aux_functions import *
 
 """ VARIABLES GLOBALES """
 
