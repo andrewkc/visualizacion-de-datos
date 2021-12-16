@@ -9,7 +9,7 @@
 * Kelvin Andreí Cahuana Condori - ID: `itskelvinandrei`
 * Ana Maria Accilio Villanueva - ID: `anaaccilio2004`
 * Margiory Alvarado Chavez - ID:  `MargioUTEC`
-* Adrian Sandoval Huamani -  ID: `SandovalHuamaniUTEC`
+* Adrian Sandoval Huamani -  ID: `SandovalAdrianUTEC`
 
 ## Instrucciones para ejecutar el proyecto
 
@@ -28,12 +28,12 @@ de estructuras de control y por últimos las funciones de la librería
 ### Ejercicio 2
 
 En nuestro ejercicio 2, realizamos una función para mostrar la altura y el peso de cada pokemon. 
-- Primer Paso: Para eso es indispensable crear dos listas vacías, mostrarán la altura y el peso respectivamente.
-- Segundo Paso: A continuación realizaremos una estructura de control repetitiva (for) para evaluar el diccionario.
-- Tercer Paso: Crearemos variables iterativas para un diciconario, el cual tendremos que llamar a un archivo `Json`.
-- Cuarto Paso: Validamos el nombre `["height"]` y `["weight"]`en dicho diccionario.
-- Quinto Paso: Se utilizará el método `.replace()` y `strip` para pasar cada letra que está acompañando al peso y altura a un string vacío, esto se añadirá a las primeras listas vacías. 
-- Sexto Paso: Generar el gráfico `scatterplot`, para lo cual le daremos parámetros como el peso, la altura y el color ya definido anteriormente.  
+- Paso 1: Es indispensable crear dos listas vacías, mostrarán la altura y el peso respectivamente.
+- Paso 2: A continuación realizaremos una estructura de control repetitiva (for) para evaluar el diccionario.
+- Paso 3: Crearemos variables iterativas para un diciconario, el cual tendremos que llamar a un archivo `Json`.
+- Paso 4: Validamos el nombre `["height"]` y `["weight"]`en dicho diccionario.
+- Paso 5: Se utilizará el método `.replace()` y `strip` para pasar cada letra que está acompañando al peso y altura a un string vacío, esto se añadirá a las primeras listas vacías. 
+- Paso 6: Generar el gráfico `scatterplot`, para lo cual le daremos parámetros como el peso, la altura y el color ya definido anteriormente.  
 
 > Imagen referencial
 > ![02](https://user-images.githubusercontent.com/91230053/146286849-28fb3eba-5d10-4c9f-b1b3-6a3a922ebde5.png)
@@ -41,9 +41,14 @@ En nuestro ejercicio 2, realizamos una función para mostrar la altura y el peso
 
 ### Ejercicio 3
 
-1. Esta función, sin parámetros, grafíca en el mapa de `Kanto`, la cuál ya nos habían compartido anteriormente,
-las coordenadas de aquellos pokemones cuyo `ID` es un número primo. Realizamos distintas estructuras y definimos
-una `función` para saber cuáles son los números primos.
+En el ejercicio 3, mostraremos el mapa de Kanto con las coordenadas de cada pokemon, solo cuya "id" sea un número primo:
+- Paso 1: Insertamos un `plt.imshow` con la imagen `Kanto.png`.
+- Paso 2: Creamos dos listas: `coordenadas_x` y `coordenadas_y`. 
+- Paso 3: Creamos una iteración: ```for i in range(2, tam)``` donde la iteración empieza por `2`, porque `0` y `1` no son números primos y que la variable `tam` es la cantidad de diccionarios leidos del `getAllPokemons`.
+- Paso 4: En la iteración seleccionamos la clave `"id"` de cada diccionario, siempre y cuando que sea un número primo, gracias a la funcion `es_primo`.
+- Paso 5: En caso de que sí lo sea, le asignamos a cada diccionario la función `getLocationsByName` que retorna las coordenadas `cordx` y `cordy` y al final los juntamos con las listas del principio.
+- Paso 6: Asignamos la lista `col` con los colores de los puntos que serán escogidos aleatoriamente.
+- Paso 7: Finalmente completamos la estructura del gráfico con `plt.plot` que asigna las coordenadas respectivas, con `plt.title`, `plt.xlabel` y `plt.ylabel` que asignan los titulos y con `plt.show()` que nos mostrará el gráfico final.
 
 > Imagen referencial
 > ![03](https://user-images.githubusercontent.com/91230053/146286916-3aa9e6ea-2f3e-477c-b785-25478858eea4.png)
