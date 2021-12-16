@@ -68,3 +68,7 @@ En el ejercicio 4, mostraremos la cantidad de Pokemones en un rango determinado,
 > ![04](https://user-images.githubusercontent.com/91230053/146286946-2dbfc5fa-cd47-4f68-acd8-729ef79f3aed.png)
 
 
+### Librerías utilizadas
+1. `Matplotlib`
+2. Utilizamos el gráfico llamado `Pie` (en donde clasificamos el key `<avg_Spawns>` mediante rangos)
+3. `pctdistance` es un parámetro de esta función `pie` que nos permite distanciar los porcentajes.
